@@ -1308,9 +1308,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .sobre .content .col-right .btn{
     color: aliceblue;
-    background: #a0949148;
+    background: #1d2840;
     font-size: 1em;
-    font-weight: 600;
+    font-weight: 510;
     display:inline-block;
     padding: 10px 20px;
     text-transform: uppercase;
@@ -1318,7 +1318,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-radius: 2px;
     transition: 0.5s ease;
     align-items: center;
-    top: 40px;
+    top: 60px;
 }
 .sobre .content .col-right .btn:hover{
     background:#fff;
