@@ -3168,8 +3168,9 @@ table td{
     }
     
     .home .slider .myslider  img{
-      width:400px;
-      height: 300px;
+        width: 725px;
+        height: 300px;
+        transform: translateX(-136px);
     }
     
 }
