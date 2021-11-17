@@ -1278,6 +1278,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     position: relative;
     width: 45%;
     margin-top: 45px;
+    
 
 }
 .sobre .bloco .content .col-right{
@@ -1326,7 +1327,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #000;
 }
 .sobre  .bloco .content .col-right p{
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 450;
     color: #000;
 
