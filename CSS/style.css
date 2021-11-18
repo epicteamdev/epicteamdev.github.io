@@ -1256,7 +1256,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     top: 50px;
     margin-left: 40px; 
 }
-.sobre .content{
+.sobre .bloco .content{
     position: relative;
     width: 100%;
     display: flex;
@@ -1264,25 +1264,25 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 50px;   
 }
 
-.sobre .content .col-left{
+.sobre .bloco .content .col-left{
     position: relative;
     width: 45%;
     margin-top: 45px;
 
 }
-.sobre .content .col-right{
+.sobre .bloco .content .col-right{
     position: relative;
     width: 50%;
     margin-top: 50px;
 }
 
-.sobre .content .col-left .img-card{
+.sobre .bloco .content .col-left .img-card{
     position: relative;
     width: 100%;
     min-height: 300px;
 }
 
-.sobre .content .col-left .img-card img{
+.sobre .bloco .content .col-left .img-card img{
     position: relative;
     top: 0;
     left: 0;
@@ -1291,7 +1291,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     object-fit: cover;
     border-radius: 20px;
 }
-.sobre .content .col-left .img-card iframe{
+.sobre .bloco .content .col-left .img-card iframe{
     position: relative;
     top: 0;
     left: 0;
@@ -1300,13 +1300,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     object-fit: cover;
     border-radius: 20px;
 }
-.sobre .content .col-right .title {
+.sobre .bloco .content .col-right .title {
     align-items: center;
     padding-left: 45%;
     padding-top: 10px;
     padding-bottom: 20px;
 }
-.sobre .content .col-right .btn{
+.sobre .bloco .content .col-right .btn{
     color: aliceblue;
     background: #a0949148;
     font-size: 1em;
@@ -1320,20 +1320,21 @@ body.mobile-nav-active #mobile-nav-toggle {
     align-items: center;
     top: 40px;
 }
-.sobre .content .col-right .btn:hover{
+.sobre .bloco .content .col-right .btn:hover{
     background:#fff;
     color: #000;
 }
-.sobre .content .col-right p{
-    font-size: 2em;
-    color: #070707;
+.sobre .bloco .content .col-right p{
+    font-size: 1.3em;
+    color: #000;
+  
 }
-.sobre .content .col-right .content-title b h4{
+.sobre .bloco .content .col-right .content-title h4{
     color: #fff;
     font-size: 2em;
 
 }
-.sobre .content .col-right h2{
+.sobre .bloco .content .col-right h2{
     color: #fff;
 }
 .sobre{
@@ -1511,7 +1512,7 @@ body.mobile-nav-active #mobile-nav-toggle {
             font-size: 5em;
     }
     .sobre  .bloco .content .col-right p{
-        font-size: 1.5em;
+        font-size: 1.3em;
         font-weight: 600;
     } 
     .sobre .content .col-left .img-card iframe{
@@ -1526,7 +1527,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         font-size: 5em;
 }
 .sobre  .bloco .content .col-right p{
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 600;
 } 
     .sobre .content .col-left .img-card iframe{
@@ -1540,7 +1541,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         font-size: 5em;
 }
 .sobre  .bloco .content .col-right p{
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 600;
 } 
     .sobre .content .col-left .img-card {
