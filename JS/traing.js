@@ -74,5 +74,21 @@ nav_sections.each(function() {
   if (cur_pos < 300) {
     $(".nav-menu li:first").addClass('menu-ativo');
   }
+  });
 });
+window.location = "#wall-1";
+
+$(document).ready(function () {
+  $('.buttons').click(function () {
+      $(this).addClass('active').siblings().removeClass('active');
+     
+      var filter = $(this).attr('data-filter')
+      if (filter == 'all') {
+          $('.event-container').hide(400);
+      } else {
+          $('.card-1').not('.' + filter).hide(200);
+          $('.card-1').filter('.' + filter).show(400);
+      }
+
+  });
 });
