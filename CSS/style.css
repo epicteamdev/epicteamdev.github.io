@@ -3146,8 +3146,9 @@ table td{
     }
     
     .home .slider .myslider  img{
-      width:400px;
-      height: 300px;
+        width: auto;
+        height: 47rem;
+        transform: translateX(-1271px);
     }
     
 }
@@ -3326,8 +3327,9 @@ table td{
     }
     
     .home .slider .myslider  img{
-      width:1700px;
-      height: 650px;
+        width: 1700px;
+        height: auto;
+        transform: scale(1.5) translate(-143px, 102px);
     }
     
 }
@@ -3353,8 +3355,9 @@ table td{
     }
     
     .home .slider .myslider  img{
-      width:2000px;
-      height: 800px;
+        width: 2200px;
+        height: auto;
+        transform: scale(1.5) translate(-143px, 119px);
     }
     
 }
