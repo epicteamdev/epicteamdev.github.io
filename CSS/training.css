@@ -1266,6 +1266,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     
 }/*pagina de eventos antigoso*/
 
+.about .card-1 a{
+    
+    font-style: none;
+    text-decoration: none;  
+}
 .about .title h1{
     position: relative;
     font-size: 3.2em;
