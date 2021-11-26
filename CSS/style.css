@@ -3101,8 +3101,9 @@ table td{
     }
     
     .home .slider .myslider  img{
-      width:500px;
-      height: 700px;
+        width: auto;
+        height: 517px;
+        transform: translateX(-868px);
     }
     
     
@@ -3152,8 +3153,8 @@ table td{
     
     .home .slider .myslider  img{
         width: auto;
-        height: 47rem;
-        transform: translateX(-1271px);
+        height: 516px;
+        transform: translateX(-847px);
     }
     
 }
@@ -3202,8 +3203,9 @@ table td{
     }
     
     .home .slider .myslider  img{
-      width:400px;
-      height: 500px;
+        width: auto;
+        height: 599px;
+        transform: translateX(-970px);
     }
     
 }
@@ -3251,8 +3253,9 @@ table td{
     }
     
     .home .slider .myslider  img{
-      width:650px;
-      height: 500px;
+        width: auto;
+        height: 599px;
+        transform: translateX(-928px);
     }
     
 }
@@ -3279,8 +3282,9 @@ table td{
     }
     
     .home .slider .myslider  img{
-      width:750px;
-      height: 500px;
+        width: auto;
+        height: 564px;
+        transform: translate(-872px, -45px) scale(1.2);
     }
     
 }
@@ -3305,8 +3309,9 @@ table td{
     }
     
     .home .slider .myslider  img{
-      width:900px;
-      height: 500px;
+        width: auto;
+        height: 564px;
+        transform: translate(-880px, -90px) scale(1.4);
     }
     
 }
