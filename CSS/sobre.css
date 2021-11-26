@@ -149,7 +149,7 @@ h1, h2, h3, h4, h6{
     }
 
     #home h1 {
-        font-size: 2em;
+        font-size: 5em;
     }
 
     #home h3 {
@@ -305,7 +305,7 @@ h1, h2, h3, h4, h6{
     }
 
     #home h1 {
-        font-size: 2em;
+        font-size: 4em;
     }
 
     #home h3 {
@@ -539,7 +539,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 
     #home h1 {
-        font-size: 2.5em;
+        font-size: 4.5em;
     }
 
     #home h3 {
@@ -657,7 +657,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 
     #home h1 {
-        font-size: 2.5em;
+        font-size: 4.5em;
     }
 
     #home h3 {
@@ -806,6 +806,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     #contato .col-md-2 img {
         width: 140px;
     }
+    #home h1{
+        font-size: 6em;
+    }
 
 }
 /*****************************************************************/
@@ -833,29 +836,30 @@ body.mobile-nav-active #mobile-nav-toggle {
  .home .inicio .cont-inicio .logo{
         position: absolute;
         align-content: center;
-        margin-left: 30%;
-        margin-top: 20%;
+        margin-left: 20%;
+        margin-top: 15%;
         z-index: 10;
            
 }
 .home .inicio .cont-inicio .logo .text-animado{
     position: relative;
-    height: 200px;
+    height: 100px;
     
 }   
 .home .inicio .cont-inicio .logo .text-animado h1{
     color: #fff;
-    font-size: 11.8em;
+    font-size: 10.8em;
     font-weight: 600;
 
 }
 .home .inicio .cont-inicio .logo .rede_social{
-    margin-top: 10px;
+    margin-top: 100px;
+    z-index: 20;
 }
 .home .inicio .cont-inicio .logo .rede_social a{
     color: #fff;
     font-size: 25px;
-    margin-right: 20px;
+    margin-left: 100px;
 }
 
  .inicio .cont-inicio .logo .btn-get-started {
@@ -885,7 +889,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     animation-duration: 40s;
  }
  @-webkit-keyframes zoomin{
-    from{transform: scale(1.2,1.2);}
+    from{transform: scale(1,1);}
     to{transform: scale(1.5,1.5);}
  
  }
@@ -894,6 +898,192 @@ body.mobile-nav-active #mobile-nav-toggle {
     to{transform: scale(1.5,1.5);
     }
  }
+ /*ajuste moobile capa*/
+ @media(max-width: 350px){
+    .home .inicio{
+        top:40%;
+        position: relative;
+        width: 100%;
+    }
+    .home .inicio .cont-inicio .logo{
+        position: absolute;
+        align-content: center;
+        margin-top: 45%;
+        z-index: 10;
+           
+}
+ 
+    .home .inicio .cont-inicio .imgfundo{
+            width:350px;
+            height:400px ;
+    }
+    .home .inicio .cont-inicio .logo .text-animado{
+        position: auto;
+        top: 50%;
+        height: 100px;
+        
+    }   
+    .home .inicio .cont-inicio .logo .text-animado h1{
+        color: #fff;
+        font-size: 0.8em;
+        font-weight: 600;
+    
+    }
+   
+
+}
+@media(min-width: 350px) and (max-width: 400.99px){
+    .home .inicio{
+        top:40%;
+        position: relative;
+        width: 100%;
+    }
+    .home .inicio .cont-inicio .logo{
+        position: absolute;
+        align-content: center;
+        margin-top: 35%;
+        z-index: 10;
+           
+}
+ 
+    .home .inicio .cont-inicio .imgfundo{
+            width:700px ;
+            height:500px ;
+    }
+    .home .inicio .cont-inicio .logo .text-animado{
+        position: auto;
+        top: 50%;
+        height: 100px;
+            
+    }
+    
+    .home .inicio .cont-inicio .imgfundo{
+            width:400px ;
+            height:400px ;
+    }
+    .home .inicio .cont-inicio .logo .text-animado{
+        position: auto;
+        top: 50%;
+        height: 100px;
+        
+    }   
+    .home .inicio .cont-inicio .logo .text-animado h1{
+        color: #fff;
+        font-size: 0.8em;
+        font-weight: 600;
+    
+    }
+   
+}
+@media(min-width: 400.1px) and (max-width: 550.99px){
+    .home .inicio .cont-inicio .imgfundo{
+        width:550px ;
+        height:400px ;
+    }
+    .home .inicio .cont-inicio .logo{
+        position: absolute;
+        align-content: center;
+        margin-top: 35%;
+        z-index: 10;           
+}
+    .home .inicio .cont-inicio .logo .text-animado{
+        position: auto;
+        top: 50%;
+        height: 100px;
+        
+    }   
+    .home .inicio .cont-inicio .logo .text-animado h1{
+        color: #fff;
+        font-size: 0.8em;
+        font-weight: 600;
+    
+    }
+}
+@media(min-width: 550px) and (max-width: 800.99px){
+    .home .inicio{
+        top:40%;
+        position: relative;
+        width: 100%;
+    }
+    .home .inicio .cont-inicio .logo{
+        position: absolute;
+        align-content: center;
+        margin-top: 35%;
+        z-index: 10;           
+}
+ 
+    .home .inicio .cont-inicio .imgfundo{
+            width:800px ;
+            height:500px ;
+    }
+    .home .inicio .cont-inicio .logo .text-animado{
+        position: auto;
+        top: 50%;
+        height: 100px;
+            
+    }
+    
+     .inicio .cont-inicio .imgfundo{
+            width:500px ;
+            height:300px ;
+    }
+    .home .inicio .cont-inicio .logo .text-animado{
+        position: auto;
+        top: 50%;
+        height: 100px;
+        
+    }   
+    .home .inicio .cont-inicio .logo .text-animado h1{
+        color: #fff;
+        font-size: 0.8em;
+        font-weight: 600;
+    
+    }
+   
+}
+
+@media(min-width: 800px) and (max-width: 1000.99px){
+    .home .inicio{
+        top:40%;
+        position: relative;
+        width: 100%;
+    }
+    .home .inicio .cont-inicio .logo{
+        position: absolute;
+        align-content: center;
+        margin-top: 35%;
+        z-index: 10;
+           
+}
+ 
+    .home .inicio .cont-inicio .imgfundo{
+            width:1000px ;
+            height:800px ;
+    }
+    .home .inicio .cont-inicio .logo .text-animado{
+        position: auto;
+        top: 50%;
+        height: 100px;
+            
+    }
+    
+     .inicio .cont-inicio .imgfundo{
+            width:500px ;
+            height:300px ;
+    }
+    .home .inicio .cont-inicio .logo .text-animado{
+        position: auto;
+        top: 50%;
+        height: 100px;
+        
+    }   
+    .home .inicio .cont-inicio .logo .text-animado h1{
+        color: #fff;
+        font-size: 0.8em;
+        font-weight: 600;
+    
+    }
+}
 .sobre a{
     font-size: 13px;
     text-transform: uppercase;
@@ -904,10 +1094,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 .sobre a:hover {
 	text-decoration: none; 
 	color: #2dc997;
-	}
-.sobre .bloco{
-    padding-left: 10px;
-    padding-right: 10px;
+}
+.sobre{
+    background-color:rgba(255, 255, 255, 0.808);
+    padding: 10px 20px;
+}
+.sobre .title{
+    margin-top: 40px;
 }
 .sobre .title h1{
     font-size: 3.2em;
@@ -916,27 +1109,30 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: center;
     color:#4a86bc;
     top: 8px;
-    margin-left: 40px;  
+
 }
 .sobre .content{
     position: relative;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 
 }
 
 .sobre .content .col-left{
     position: relative;
-    width: 48%;
-    margin-top: 5px;
+    width: 45%;
 
+  
 }
 .sobre .content .col-right{
     position: relative;
     width: 50%;
-    margin-top: 5px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 300px;
 }
 
 .sobre .content .col-left .img-card{
@@ -955,32 +1151,22 @@ body.mobile-nav-active #mobile-nav-toggle {
     object-fit: cover;
     border-radius: 20px;
 }
-.sobre .content .col-left .img-card iframe{
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 550px;
-    object-fit: cover;
-    border-radius: 20px;
-}
+
 .sobre .content .col-right p{
     font-size: 1em;
     color: black;
 }
 .sobre .content .col-right h4{
+    font-size: 2em;
     color: #466fa6;
 
 }
-.sobre .content .col-right h2{
-    color: #fff;
-}
+
 .sobre .content .col-right ul{
     margin-left: 20px;
 }
-.sobre{
-    background-color:rgba(255, 255, 255, 0.808);
-    padding: 100px 200px;
+.sobre .content .col-right ul li{
+    font-size: 1em;
 }
 .sobre .content .col-right .img-logo{
     width: 100%;
@@ -997,12 +1183,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /**  SOBRE PARTE 2   **/
+.sobre1 .title{
+    margin-top: 40px;
+}
+.sobre1{
+    background-color:#1d2840;
+    padding: 10px 20px;
+}
 .sobre1 .content-1{
     position: relative;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 .sobre1 .title h1{
     position: relative;
@@ -1010,27 +1204,25 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-weight: 900;
     margin-bottom: 50px;
     text-align: center;
-    color:#4a86bc;
+    color:#ffb70188;
     top: 8px;
-    margin-left: 40px; 
+    
 }
 .sobre1 .content-1 .col-left{
     position: relative;
-    width: 50%;
-    margin-top: 5px;
-    padding-left: 20px;
-
+    width: 55%;
+    margin-top: 20px;
+    padding: 60px;
 }
 .sobre1 .content-1 .col-right{
     position: relative;
-    width: 45%;
-    margin-top: 5px;
+    width: 50%;
+  
 }
-
 .sobre1 .content-1 .col-right .img-card{
     position: relative;
     width: 100%;
-    height: 70%;
+    height: 100%;
     min-height: 300px;
 }
 
@@ -1043,25 +1235,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     object-fit: cover;
     border-radius: 20px;
 }
-.sobre1 .content-1 .col-left .img-logo1{
-    margin-top: 0%;
-    align-items: center;
-    padding-left: 30%;
-    margin: 0 20px;
-}
-.sobre1 .content-1 .col-left p{
-    font-size: 1em;
-    color: black;
-}
-.sobre1 .content-1 .col-left h2{
-    color: #fff;
-}
-.sobre1 .content-1 .col-left h3{
-    color: #466fa6;
-}
-.sobre1{
-    background-color:#000;
-}
+
 .event-container{
     max-width: 800px;
     margin: 0 auto;
@@ -1075,40 +1249,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 10px;
 }
 
-.sobre1 .content-1 .col-left{
-    position: relative;
-    width: 50%;
-    margin-top: 5px;
-    padding-left: 20px;
-
-}
-.sobre1 .content-1 .col-right{
-    position: relative;
-    width: 45%;
-    margin-top: 5px;
-}
-
-.sobre1 .content-1 .col-right .img-card{
-    position: relative;
-    width: 100%;
-    min-height: 500px;
-}
-
-.sobre1 .content-1 .col-right .img-card img{
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80%;
-    object-fit: cover;
-    border-radius: 20px;
-}
-.sobre1 .content-1 .col-left .img-logo1{
-    margin-top: 0%;
-    align-items: center;
-    padding-left: 30%;
-    margin: 0 20px;
-}
 .sobre1 .content-1 .col-left p{
     font-size: 1em;
     color: #fff;
@@ -1116,251 +1256,250 @@ body.mobile-nav-active #mobile-nav-toggle {
 .sobre1 .content-1 .col-left h1{
     color: #fff;
 }
-.sobre1 .content-1 .col-left h2{
-    color: #fff;
-}
-.sobre1 .content-1 .col-left h4{
-    color: #4a86bc;
-}
-.sobre1{
-    background-color:rgb(39, 37, 37);
-    padding: 100px 200px;
-}
-.event-container{
-    max-width: 800px;
-    margin: 0 auto;
 
+.sobre1 .content-1 .col-left h4{
+    font-size: 2em;
+    color: #ffb70188;
 }
+
+.sobre1 .content-1 .col-left h3{
+    color: #ffb70188;
+    font-size: 1.5em;
+}
+
+
 /*SOBRE ajustes moobile*/
 @media(max-width: 350px){
-    .sobre .bloco {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .sobre .title h1{
-        font-size: 1.8em;
-    }
-    .sobre  .bloco .content{
-        flex-direction: column;
-    
-    }
-    .sobre  .bloco .content .column{
-        flex-direction: column;
-        position: relative;
-        width: 100%;
-    }
-    .sobre .content .col-left .img-card {
-        min-height: 0px;
-    }
-    .sobre  .bloco .content .col-right .content-title{
-            font-size: 1.4em;
-    }
-    .sobre  .bloco .content .col-right p{
-        font-size: 0.8em;
-    } 
-    .sobre .content .col-left .img-card iframe{
-       margin-left: 2px;
-        height: 200px;
-    
-    }
-}
-@media(min-width: 350px) and (max-width: 549.99px){
-    .sobre .bloco {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .sobre .title h1{
-        font-size: 1.8em;
-    }
-    .sobre  .bloco .content{
-        flex-direction: column;
-    
-    }
-    .sobre  .bloco .content .column{
-        flex-direction: column;
-        position: relative;
-        width: 100%;
-    }
-    .sobre .content .col-left .img-card {
-        min-height: 0px;
-    }
-    .sobre  .bloco .content .col-right .content-title{
-            font-size: 1.4em;
-    }
-    .sobre  .bloco .content .col-right p{
-        font-size: 0.8em;
-    } 
-    .sobre .content .col-left .img-card iframe{
-        margin-left: 2px;
-        height: 300px;
-    
-    }
-}
-@media (min-width: 550px) and (max-width: 550.99px) {
-    .sobre .bloco {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .sobre .title h1{
-        font-size: 1.8em;
-    }
-    .sobre  .bloco .content{
-        flex-direction: column;
-    
-    }
-    .sobre  .bloco .content .column{
-        flex-direction: column;
-        position: relative;
-        width: 100%;
-    }
-    .sobre .content .col-left .img-card iframe{
-        margin-left: 2px;
-        height: 300px;
-    
-    }
-   
-} 
 
-@media (min-width: 551px) and (max-width: 991.98px){
-    .sobre .bloco {
-        padding-left: 20px;
-        padding-right: 20px;
+    /*sobre*/
+    .sobre{
+        padding: 10px 10px;
     }
-    
     .sobre .title h1{
         font-size: 2em;
     }
-    .sobre  .bloco .content{
+    .sobre .content{
         flex-direction: column;
     
     }
-    .sobre  .bloco .content .column{
+    .sobre .content .column{
         flex-direction: column;
         position: relative;
         width: 100%;
     }
-    .sobre .content .col-left .img-card {
-        min-height: 100px;
+    .sobre .content .col-right{
+        margin-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px
     }
-    .sobre  .bloco .content .col-right .content-title{
+    .sobre .content .col-left .img-card {
+        min-height: 0px;
+    }
+    .sobre  .content .col-right .content-title{
+            font-size: 1.4em;
+    }
+    .sobre  .content .col-right p{
+        font-size: 0.8em;
+    } 
+    .sobre .content .col-right ul li{
+        font-size: 0.8em;
+    }
+    /*sobre1*/
+    .sobre1{
+        padding: 1px 10px;
+        
+    }
+    .sobre1 .title h1{
+        font-size: 2em;
+    }
+    .sobre1 .content-1{
+        flex-direction: column;
+        margin-bottom: 1px;
+            
+    
+    }
+    .sobre1 .content-1 .col-left{
+        position: relative;
+        width: 55%;
+        margin-top: 20px;
+        padding: 0px;
+    }
+    .sobre1 .content-1 .column{
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sobre1 .content-1 .col-left .img-card {
+        min-height: 0px;
+        
+    }
+    .sobre1  .content-1 .col-left .content-title{
+            font-size: 1.4em;
+    }
+    .sobre1  .content-1 .col-left h3{
+        font-size: 1em;
+    } 
+    .sobre1  .content-1 .col-left p{
+        font-size: 0.8em;
+    } 
+
+}
+@media(min-width: 350px) and (max-width: 549.99px){
+  
+    /*sobre*/
+    .sobre{
+        padding: 10px 10px;
+    }
+    .sobre .title h1{
+        font-size: 2.4em;
+    }
+    .sobre .content{
+        flex-direction: column;
+    
+    }
+    .sobre .content .column{
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+    }
+    .sobre .content .col-right{
+        margin-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px
+    }
+    .sobre .content .col-left .img-card {
+        min-height: 0px;
+    }
+    .sobre  .content .col-right .content-title{
             font-size: 1.8em;
     }
-    .sobre  .bloco .content .col-right p{
+    .sobre  .content .col-right p{
+        font-size: 1em;
+    } 
+    .sobre .content .col-right ul li{
         font-size: 1em;
     }
-    .sobre .content .col-right .img-logo{
-        width: 100%;
-        max-height: 270px;
+    /*sobre1*/
+    .sobre1{
+        padding: 1px 10px;
+        
     }
-    .sobre .content .col-right .img-logo{
-        width: 100%;
-        max-height: 350px;
+    .sobre1 .title h1{
+        font-size: 2.4em;
     }
-    .sobre .content .col-left .img-card iframe{
-        margin-left: 2px;
-        height:400px;
-    
-    }
-  } 
-
-@media (min-width: 992px) and (max-width: 1200.98px) {
-   
-    .sobre .bloco {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    
-    .sobre  .bloco .content{
+    .sobre1 .content-1{
         flex-direction: column;
-    
+        margin-bottom: 1px;
     }
-    .sobre  .bloco .content .column{
+    .sobre1 .content-1 .col-left{
+        position: relative;
+        width: 55%;
+        margin-top: 20px;
+        padding: 0px;
+    }
+    .sobre1 .content-1 .column{
         flex-direction: column;
         position: relative;
         width: 100%;
     }
-    .sobre .content .col-left .img-card {
-        min-height: 100px;
+    .sobre1 .content-1 .col-left .img-card {
+        min-height: 0px;
+        margin-bottom: 10px;
+        
     }
-    .sobre .content .col-right .img-logo{
-        width: 100%;
-        max-height: 270px;
-    }
-    .sobre .content .col-right .img-logo{
-        width: 100%;
-        max-height: 350px;
-    }
-    .sobre .content .col-left .img-card iframe{
-        margin-left: 2px;
-        height: 400px;
-    
-    }
-} 
-
-
-@media (min-width: 1200.98px) and (max-width: 1399.98px) {
-    .sobre  .bloco .content .col-right .content-title{
-            font-size: 1.5em;
-    }
-    .sobre  .bloco .content .col-right p{
-        font-size: 0.8em;
-    } 
-    .sobre .content .col-left .img-card iframe{
-      
-        height: 400px;
-    
-    }
-    
-}
-@media (min-width: 1400px) and (max-width: 1500.98px) {
-    .sobre  .bloco .content .col-right .content-title{
-            font-size: 1.5em;
-    }
-    .sobre  .bloco .content .col-right p{
-        font-size: 0.8em;
-    } 
-    .sobre .content .col-left .img-card iframe{
-      
-        height: 400px;
-    
-    }
-}
-@media (min-width: 1500.99px) and (max-width: 1900.98px) {
-        .sobre  .bloco .content .col-right .content-title{
+    .sobre1  .content-1 .col-left .content-title{
             font-size: 1.8em;
     }
-    .sobre  .bloco .content .col-right p{
-        font-size: 0.9em;
+    .sobre1  .content-1 .col-left h3{
+        font-size: 1.3em;
     } 
+    .sobre1  .content-1 .col-left p{
+        font-size: 1em;
+    } 
+
+}
+
+
+@media (min-width: 551px) and (max-width: 900.98px){
+     /*sobre*/
+     .sobre{
+        padding: 10px 10px;
+    }
+    .sobre .title h1{
+        font-size: 2.4em;
+    }
+    .sobre .content{
+        flex-direction: column;
+    
+    }
+    .sobre .content .column{
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+    }
+    .sobre .content .col-right{
+        margin-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     .sobre .content .col-left .img-card {
         min-height: 0px;
     }
-}
-@media (min-width: 1800px) and (max-width: 2400.98px) {
-  
- .sobre .content .col-right .img-logo{
-    width: 100%;
-    max-height: 350px;
-}
-
-}
-@media (min-width: 1910.99px) and (max-width: 3000.98px) {
-        .sobre  .bloco .content .col-right .content-title{
+    .sobre  .content .col-right .content-title{
             font-size: 1.8em;
     }
-    .sobre  .bloco .content .col-right p{
-        font-size: 1.2em;
+    .sobre  .content .col-right p{
+        font-size: 1em;
     } 
-    .sobre .content .col-left .img-card {
-        min-height: 0px;
+    .sobre .content .col-right ul li{
+        font-size: 1em;
     }
-    .sobre .content .col-right .img-logo{
-        width: 100%;
-        max-height: 270px;
+    /*sobre1*/
+    .sobre1{
+        padding: 1px 10px;
+        
     }
-    .sobre .content .col-right .img-logo{
-        width: 100%;
-        max-height: 350px;
+    .sobre1 .title h1{
+        font-size: 2.4em;
+    }
+    .sobre1 .content-1{
+        flex-direction: column;
+        margin-bottom: 1px;
+    }
+    .sobre1 .content-1 .col-left{
+        position: relative;
+        width: 55%;
+        margin-top: 20px;
+        padding: 0px;
     }
 
+    .sobre1 .content-1 .column{
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+    }
+    .sobre1 .content-1 .col-left .img-card {
+        min-height: 0px;
+        margin-bottom: 10px;
+        
+    }
+    .sobre1  .content-1 .col-left .content-title{
+            font-size: 1.8em;
+    }
+    .sobre1  .content-1 .col-left h3{
+        font-size: 1.3em;
+    } 
+    .sobre1  .content-1 .col-left p{
+        font-size: 1em;
+    } 
+  } 
+
+  @media (min-width: 900.99px) and (max-width: 1400px){
+
+    .sobre .content .col-right{
+        margin-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }

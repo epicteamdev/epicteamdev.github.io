@@ -97,7 +97,7 @@ h1, h2, h3, h4, h6{
 
 #iniciativas {
     background: #1d2840;
-    padding: 150px 0px;
+    padding: 100px 0px;
 }
 
 #iniciativas h4 {
@@ -110,6 +110,16 @@ h1, h2, h3, h4, h6{
 
 #iniciativas img:hover {
     width: 320px;
+}
+#iniciativas .title h1{
+    position: relative;
+    font-size: 3.2em;
+    font-weight: 800;
+    margin-bottom: 50px;
+    text-align: left;
+    color:#ffffff;
+    top: 10px;
+    margin-left: 40px;
 }
 
 /* FOOTER  */
@@ -1268,6 +1278,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     position: relative;
     width: 45%;
     margin-top: 45px;
+    
 
 }
 .sobre .bloco .content .col-right{
@@ -1276,13 +1287,18 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 50px;
 }
 
-.sobre .bloco .content .col-left .img-card{
+
+
+.sobre  .bloco .content .col-left .img-card{
+
     position: relative;
     width: 100%;
     min-height: 300px;
 }
 
-.sobre .bloco .content .col-left .img-card img{
+
+.sobre  .bloco .content .col-left .img-card img{
+
     position: relative;
     top: 0;
     left: 0;
@@ -1291,47 +1307,43 @@ body.mobile-nav-active #mobile-nav-toggle {
     object-fit: cover;
     border-radius: 20px;
 }
-.sobre .bloco .content .col-left .img-card iframe{
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 550px;
-    object-fit: cover;
-    border-radius: 20px;
-}
+
+
 .sobre .bloco .content .col-right .title {
-    align-items: center;
-    padding-left: 45%;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    align-items: left;
+    margin-bottom: 8px;
+   
 }
-.sobre .bloco .content .col-right .btn{
+.sobre .content  .col-right .title .btn{
+
     color: aliceblue;
-    background: #a0949148;
+    background: #1d2840;
     font-size: 1em;
-    font-weight: 600;
-    display:inline-block;
-    padding: 10px 20px;
+    font-weight: 510;
+    display: relative;
+    padding: 5px 20px;
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 2px;
     transition: 0.5s ease;
     align-items: center;
-    top: 40px;
+    top: 60px;
 }
 .sobre .bloco .content .col-right .btn:hover{
     background:#fff;
     color: #000;
 }
-.sobre .bloco .content .col-right p{
+
+.sobre  .bloco .content .col-right p{
     font-size: 1.3em;
+    font-weight: 450;
     color: #000;
-  
-}
-.sobre .bloco .content .col-right .content-title h4{
-    color: #fff;
-    font-size: 2em;
+
+} 
+.sobre .bloco .content .col-right .content-title{
+    color: #1d2840;
+    font-size: 3em;
+
 
 }
 .sobre .bloco .content .col-right h2{
@@ -1341,242 +1353,192 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-color:#ffb70188;
 }
 
+
+
 /*SOBRE ajustes moobile*/
 @media(max-width: 350px){
-    .sobre .bloco {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .sobre .title h1{
-        font-size: 3em;
-    }
-    .sobre  .bloco .content{
-        flex-direction: column;
-    
-    }
-    .sobre  .bloco .content .column{
-        flex-direction: column;
-        position: relative;
-        width: 100%;
-    }
-    .sobre .content .col-left .img-card {
-        min-height: 0px;
-    }
-    .sobre  .bloco .content .col-right .content-title{
-            font-size: 1.5em;
-    }
-    .sobre  .bloco .content .col-right p{
-        font-size: 1em;
-    } 
-    .sobre .content .col-left .img-card iframe{
-       margin-left: 2px;
-        height: 200px;
-    
-    }
-}
-@media(min-width: 350px) and (max-width: 549.99px){
-    .sobre .bloco {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .sobre .title h1{
-        font-size: 3em;
-    }
-    .sobre  .bloco .content{
-        flex-direction: column;
-    
-    }
-    .sobre  .bloco .content .column{
-        flex-direction: column;
-        position: relative;
-        width: 100%;
-    }
-    .sobre .content .col-left .img-card {
-        min-height: 0px;
-    }
-    .sobre  .bloco .content .col-right .content-title{
-            font-size: 2em;
-    }
-    .sobre  .bloco .content .col-right p{
-        font-size: 1em;
-    } 
-    .sobre .content .col-left .img-card iframe{
-        margin-left: 2px;
-        height: 300px;
-    
-    }
-}
-@media (min-width: 550px) and (max-width: 550.99px) {
-    .sobre .bloco {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .sobre .title h1{
-        font-size: 1.8em;
-    }
-    .sobre  .bloco .content{
-        flex-direction: column;
-    
-    }
-    .sobre  .bloco .content .column{
-        flex-direction: column;
-        position: relative;
-        width: 100%;
-    }
-    .sobre .content .col-left .img-card iframe{
-        margin-left: 2px;
-        height: 300px;
-    
-    }
-   
-} 
 
-@media (min-width: 551px) and (max-width: 991.98px){
-    .sobre .bloco {
-        padding-left: 20px;
-        padding-right: 20px;
+    /*sobre*/
+    .sobre{
+        padding: 0px 0px;
     }
-    
-    .sobre .title h1{
-        font-size: 3em;
+    .sobre .bloco{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 0px;
     }
-    .sobre  .bloco .content{
+    .sobre  .title h1{
+        position: relative;
+        font-size: 3.2em;
+        font-weight: 800;
+        margin-bottom: 50px;
+        text-align: left;
+        color:#ffffff;
+        top: 40px;
+        margin-left: 40px;
+        
+    }
+    .sobre .bloco .content{
         flex-direction: column;
     
     }
-    .sobre  .bloco .content .column{
+    .sobre .bloco .content .column{
         flex-direction: column;
         position: relative;
         width: 100%;
     }
-    .sobre .content .col-left .img-card {
-        min-height: 100px;
+    .sobre .bloco .content .col-left .img-card {
+        min-height: 0px;
     }
     .sobre  .bloco .content .col-right .content-title{
             font-size: 1.8em;
     }
     .sobre  .bloco .content .col-right p{
         font-size: 1em;
+    } 
+    .sobre  .bloco .content .col-right ul li{
+        font-size: 1em;
     }
-    .sobre .content .col-right .img-logo{
-        width: 100%;
-        max-height: 270px;
-    }
-    .sobre .content .col-right .img-logo{
-        width: 100%;
-        max-height: 350px;
-    }
-    .sobre .content .col-left .img-card iframe{
-        margin-left: 2px;
-        height:400px;
-    
-    }
-  } 
 
-@media (min-width: 992px) and (max-width: 1200.98px) {
-   
-    .sobre .bloco {
-        padding-left: 20px;
-        padding-right: 20px;
+}
+@media(min-width: 350px) and (max-width: 549.99px){
+  
+    /*sobre*/
+    .sobre{
+        padding: 0px 0px;
     }
-    
-    .sobre  .bloco .content{
+    .sobre .bloco{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 0px;
+    }
+    .sobre  .title h1{
+        position: relative;
+        font-size: 3.2em;
+        font-weight: 800;
+        margin-bottom: 50px;
+        text-align: left;
+        color:#ffffff;
+        top: 40px;
+        margin-left: 40px;
+        
+    }
+    .sobre .bloco .content{
         flex-direction: column;
     
     }
-    .sobre  .bloco .content .column{
+    .sobre .bloco .content .column{
         flex-direction: column;
         position: relative;
         width: 100%;
     }
-    .sobre .content .col-left .img-card {
-        min-height: 100px;
-    }
-    .sobre .content .col-right .img-logo{
-        width: 100%;
-        max-height: 270px;
+    .sobre .bloco .content .col-left .img-card {
+        min-height: 0px;
     }
     .sobre  .bloco .content .col-right .content-title{
-        font-size: 3em;
-    } 
-    .sobre .content .col-left .img-card iframe{
-        margin-left: 2px;
-        height: 400px;
-    
-    }
-} 
-
-
-@media (min-width: 1200.98px) and (max-width: 1399.98px) {
-    .sobre  .bloco .content .col-right .content-title{
-            font-size: 5em;
+            font-size: 1.8em;
     }
     .sobre  .bloco .content .col-right p{
-        font-size: 1.3em;
-        font-weight: 600;
+        font-size: 1em;
     } 
-    .sobre .content .col-left .img-card iframe{
-      
-        height: 400px;
-    
+    .sobre  .bloco .content .col-right ul li{
+        font-size: 1em;
     }
     
-}
-@media (min-width: 1400px) and (max-width: 1500.98px) {
-    .sobre  .bloco .content .col-right .content-title{
-        font-size: 5em;
-}
-.sobre  .bloco .content .col-right p{
-    font-size: 1.3em;
-    font-weight: 600;
-} 
-    .sobre .content .col-left .img-card iframe{
-      
-        height: 400px;
-    
-    }
-}
-@media (min-width: 1500.99px) and (max-width: 1900.98px) {
-    .sobre  .bloco .content .col-right .content-title{
-        font-size: 5em;
-}
-.sobre  .bloco .content .col-right p{
-    font-size: 1.3em;
-    font-weight: 600;
-} 
-    .sobre .content .col-left .img-card {
-        min-height: 0px;
-    }
-}
-@media (min-width: 1800px) and (max-width: 2400.98px) {
-  
- .sobre .content .col-right .img-logo{
-    width: 100%;
-    max-height: 350px;
 }
 
-}
-@media (min-width: 1910.99px) and (max-width: 3000.98px) {
+
+@media (min-width: 551px) and (max-width: 900.98px){
+     /*sobre*/
+
+        .sobre{
+            padding: 0px 0px;
+        }
+        .sobre .bloco{
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 0px;
+        }
+        .sobre  .title h1{
+            position: relative;
+            font-size: 3.2em;
+            font-weight: 800;
+            margin-bottom: 50px;
+            text-align: left;
+            color:#ffffff;
+            top: 40px;
+            margin-left: 40px;
+            
+        }
+        .sobre .bloco .content{
+            flex-direction: column;
+        
+        }
+        .sobre .bloco .content .column{
+            flex-direction: column;
+            position: relative;
+            width: 100%;
+        }
+        .sobre .bloco .content .col-left .img-card {
+            min-height: 0px;
+        }
+        .sobre  .bloco .content .col-right .content-title{
+                font-size: 1.8em;
+        }
+        .sobre  .bloco .content .col-right p{
+            font-size: 1em;
+        } 
+        .sobre  .bloco .content .col-right ul li{
+            font-size: 1em;
+        }
+  } 
+@media (min-width: 900.99px) and (max-width: 1135px){
+    
+    .sobre{
+        padding: 0px 0px;
+    }
+    .sobre .bloco{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 0px;
+    }
+    .sobre  .title h1{
+        position: relative;
+        font-size: 3.2em;
+        font-weight: 800;
+        margin-bottom: 50px;
+        text-align: left;
+        color:#ffffff;
+        top: 40px;
+        margin-left: 40px;
+        
+    }
+    .sobre .bloco .content{
+        flex-direction: column;
+    
+    }
+    .sobre .bloco .content .column{
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+    }
+    
     .sobre  .bloco .content .col-right .content-title{
-        font-size: 5em;
-}
-.sobre  .bloco .content .col-right p{
-    font-size: 1.5em;
-    font-weight: 600;
-} 
-    .sobre .content .col-left .img-card {
-        min-height: 0px;
+            font-size: 2.3em;
     }
-    .sobre .content .col-right .img-logo{
-        width: 100%;
-        max-height: 270px;
-    }
-    .sobre .content .col-right .img-logo{
-        width: 100%;
-        max-height: 350px;
+    .sobre  .bloco .content .col-right p{
+
+        font-size: 1.4em;
+    } 
+    .sobre  .bloco .content .col-right ul li{
+        font-size: 1em;
+
     }
 
+
+
 }
+
 /*AGENDA---------------------------------*/
 .Agenda{
     background-color: #1d2840;
