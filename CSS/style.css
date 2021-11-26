@@ -126,6 +126,11 @@ h1, h2, h3, h4, h6{
 #iniciativas img:hover {
     width: 320px;
 }
+
+#iniciativas{
+    text-align: center;
+}
+
 #iniciativas .title h1{
     position: relative;
     font-size: 3.2em;
