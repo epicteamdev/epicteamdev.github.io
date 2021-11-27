@@ -8,11 +8,7 @@ html, body, #home {
 
 }
 
-body{
-    background-image: url("/img/fundo3.1.jpg");
-    background-color: #466fa6;
-    padding: 0;
-}
+
 
 h1, h2, h3, h4, h6{
     font-family: "antipastoregular", sans-serif;
@@ -508,7 +504,6 @@ h1, h2, h3, h4, h6{
     top: 0;
     left: 0;
     position: fixed;
-    background-image: url("/img/fundo3.1.jpg");
     display: none;
 }
   
