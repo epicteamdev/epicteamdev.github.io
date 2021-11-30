@@ -225,10 +225,10 @@ h1, h2, h3, h4, h6{
         margin-left: 20px;
         font-size: 1.2em;
     }
-    #iniciativas h1 {
-        margin-left: 20px;
-        font-size: 1em;
-        color: #fff;
+   
+    #iniciativas .title h1{
+        font-size: 2em;
+      
     }
 
     /* sobre */
@@ -506,6 +506,10 @@ h1, h2, h3, h4, h6{
         margin-left: 20px;
         font-size: 1em;
         color: #fff;
+    }
+    #iniciativas .title h1{
+        font-size: 2em;
+      
     }
 
 
@@ -1388,15 +1392,8 @@ body.mobile-nav-active #mobile-nav-toggle {
         padding-bottom: 0px;
     }
     .sobre  .title h1{
-        position: relative;
-        font-size: 3.2em;
-        font-weight: 800;
-        margin-bottom: 50px;
-        text-align: left;
-        color:#ffffff;
-        top: 40px;
-        margin-left: 40px;
-        
+        font-size: 2em;
+      
     }
     .sobre .bloco .content{
         flex-direction: column;
@@ -1421,9 +1418,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 
 }
-@media(min-width: 350px) and (max-width: 549.99px){
-  
-    /*sobre*/
+@media(min-width: 350px) and (max-width: 575.98px){
+    
     .sobre{
         padding: 0px 0px;
     }
@@ -1432,16 +1428,9 @@ body.mobile-nav-active #mobile-nav-toggle {
         padding-right: 15px;
         padding-bottom: 0px;
     }
-    .sobre  .title h1{
-        position: relative;
-        font-size: 3.2em;
-        font-weight: 800;
-        margin-bottom: 50px;
-        text-align: left;
-        color:#ffffff;
-        top: 40px;
-        margin-left: 40px;
-        
+    .sobre .title h1{
+        font-size: 2em;
+      
     }
     .sobre .bloco .content{
         flex-direction: column;
@@ -1468,7 +1457,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-@media (min-width: 551px) and (max-width: 900.98px){
+@media (min-width: 575.99px) and (max-width: 900.98px){
      /*sobre*/
 
         .sobre{
@@ -2582,6 +2571,22 @@ body.mobile-nav-active #mobile-nav-toggle {
     -webkit-transform: scale(1.1);
     transform:scale(1.1);
 }
+@media(max-width: 360px){
+    .Cases  .titlo h1{
+        
+        font-size: 2em;
+    }
+
+}
+@media (min-width: 361px) and (max-width: 575.98px){
+
+    .Cases  .titlo h1{
+        
+        font-size: 2em;
+    }
+
+}
+
 /*equipesING*/
 .equipes{
     background-color:#1d2840;
