@@ -93,6 +93,9 @@ h1, h2, h3, h4, h6{
     transform: scaleX(1);
 }
 
+/* IMAGENS SLIDER */
+
+
 /*** INCIATIVAS *****/
 
 #iniciativas {
@@ -3154,7 +3157,12 @@ table td{
     .home .slider .myslider  img{
         width: auto;
         height: 516px;
-        transform: translateX(-847px);
+        transform: translateX(-818px);
+    }
+
+    
+    .myslider_grupoFlutter {
+        transform: translateX(-846px) !important;
     }
     
 }
@@ -3205,7 +3213,12 @@ table td{
     .home .slider .myslider  img{
         width: auto;
         height: 599px;
-        transform: translateX(-970px);
+        transform: translate(-1026px, -59px) scale(1.2);
+    }
+
+    
+    .myslider_grupoFlutter {
+        transform: translate(-959px, 39px) scale(.9)!important;
     }
     
 }
@@ -3256,6 +3269,10 @@ table td{
         width: auto;
         height: 599px;
         transform: translateX(-928px);
+    }
+    
+    .myslider_grupoFlutter {
+        transform: translate(-959px, 39px) scale(.9)!important;
     }
     
 }
@@ -3313,6 +3330,10 @@ table td{
         height: 564px;
         transform: translate(-880px, -90px) scale(1.4);
     }
+
+    .myslider_grupoFlutter {
+        transform: scale(1.7) translate(-108px, 206px) !important;
+    }
     
 }
 
@@ -3342,6 +3363,10 @@ table td{
         transform: scale(1.5) translate(-143px, 102px);
     }
     
+    .myslider_grupoFlutter {
+        transform: scale(1.7) translate(-96px, 168px) !important
+    }
+    
 }
 
 @media (min-width: 1800.1px) and (max-width: 2000px){
@@ -3369,5 +3394,10 @@ table td{
         height: auto;
         transform: scale(1.5) translate(-143px, 119px);
     }
+
+    .myslider_grupoFlutter {
+        transform: scale(1.7) translate(-108px, 206px) !important;
+    }
+
     
 }
