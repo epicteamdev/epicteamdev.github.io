@@ -3166,7 +3166,7 @@ table td{
     }
 
     
-    .myslider_grupoFlutter {
+    .myslider_grupoFlutter img{
         transform: translateX(-846px) !important;
     }
     
@@ -3222,7 +3222,7 @@ table td{
     }
 
     
-    .myslider_grupoFlutter {
+    .myslider_grupoFlutter img{
         transform: translate(-959px, 39px) scale(.9)!important;
     }
     
@@ -3276,7 +3276,7 @@ table td{
         transform: translateX(-928px);
     }
     
-    .myslider_grupoFlutter {
+    .myslider_grupoFlutter img{
         transform: translate(-959px, 39px) scale(.9)!important;
     }
     
@@ -3336,7 +3336,7 @@ table td{
         transform: translate(-880px, -90px) scale(1.4);
     }
 
-    .myslider_grupoFlutter {
+    .myslider_grupoFlutter img{
         transform: scale(1.7) translate(-108px, 206px) !important;
     }
     
@@ -3368,7 +3368,7 @@ table td{
         transform: scale(1.5) translate(-143px, 102px);
     }
     
-    .myslider_grupoFlutter {
+    .myslider_grupoFlutter img{
         transform: scale(1.7) translate(-96px, 168px) !important
     }
     
@@ -3400,9 +3400,8 @@ table td{
         transform: scale(1.5) translate(-143px, 119px);
     }
 
-    .myslider_grupoFlutter {
+    .myslider_grupoFlutter img{
         transform: scale(1.7) translate(-108px, 206px) !important;
     }
-
     
 }
