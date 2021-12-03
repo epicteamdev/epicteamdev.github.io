@@ -99,8 +99,7 @@ h1, h2, h3, h4, h6{
 /*** INCIATIVAS *****/
 
 #iniciativas {
-    background: #1d2840;
-
+    background:#1d2840;
     padding: 15px 0px;
     align-items: center;
 }
@@ -2477,7 +2476,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     
 }
 .Cases{
-    background-color: #1d2840;
+    background: rgba(58, 50, 28, 0.884);
 }
 .Cases .titlo h1{
     position: relative;
